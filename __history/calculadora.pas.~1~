@@ -1,0 +1,40 @@
+unit calculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    btn_1: TButton;
+    btn_2: TButton;
+    btn_3: TButton;
+    btn_4: TButton;
+    btn_5: TButton;
+    btn_6: TButton;
+    btn_7: TButton;
+    btn_8: TButton;
+    btn_9: TButton;
+    btn_ponto: TButton;
+    btn_0: TButton;
+    btn_igual: TButton;
+    btn_somar: TButton;
+    btn_subtrair: TButton;
+    btn_multiplicar: TButton;
+    btn_dividir: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.
